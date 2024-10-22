@@ -44,7 +44,7 @@ To run the Voting DApp locally, follow these steps:
    npm install
    npm start
 2. **Live Link**:
-    [Voting Dapp](https://voting-dapp-ruddy.vercel.app)
+    [Voting Dapp](https://voting-dapp-ruddy.vercel.app/)
 
 
 3. **Compile the smart contracts: Make sure you're in the voting directory and run:**
