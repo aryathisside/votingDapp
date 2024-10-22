@@ -18,13 +18,12 @@ This is a decentralized voting application (DApp) built on the Ethereum blockcha
 The Voting DApp is a decentralized application where users can participate in polls hosted on the Ethereum blockchain. It ensures that votes are cast securely and are immutable once they are submitted, which promotes transparency and eliminates the risk of tampering.
 
 ## Features
+- **Create Polls:** The contract owner can create new polls with a list of candidates.
+- **Vote:** Users can vote for their preferred candidate in a poll.
+- **Declare Winners:** Once a poll is closed, the contract owner can declare the winner(s).
+- **Security Features:** Each voter can vote only once per poll, and only the owner can create polls or declare winners.
+- **Track Poll Results:** View the status, total votes, candidates, and results for each poll.
 
-- **Decentralized Voting**: Cast votes securely on the Ethereum blockchain.
-- **Multiple Polls**: Host and vote in multiple polls.
-- **Real-time Voting Results**: See the voting results once a poll is completed.
-- **Smart Contract Backend**: Powered by Solidity smart contracts for transparency.
-- **Easy to Use**: Simple UI for interacting with the blockchain and casting votes.
-- **Validation**: Only active polls are available for voting, ensuring legitimacy.
 
 ## Tech Stack
 
@@ -57,11 +56,11 @@ To run the Voting DApp locally, follow these steps:
     npx hardhat run scripts/deploy.js --network localhost
 
 ## Usage
-- Connect Wallet: Open the DApp and connect your MetaMask wallet.
-- Select a Poll: Choose an active poll from the dropdown list.
-- Vote for a Candidate: Select your candidate and cast your vote.
-- Transaction: Confirm the transaction in MetaMask to submit your vote.
-- Result: Once the poll ends, view the results on the same page.
+- **Connect Wallet:** Open the DApp and connect your MetaMask wallet.
+- **Select a Poll:** Choose an active poll from the dropdown list.
+- **Vote for a Candidate:** Select your candidate and cast your vote.
+- **Transaction:** Confirm the transaction in MetaMask to submit your vote.
+- **Result:** Once the poll ends, view the results on the same page.
 
 ## Smart Contract Overview
 **The Voting DApp allows:**
@@ -72,9 +71,3 @@ To run the Voting DApp locally, follow these steps:
 - The contract is implemented using Solidity and includes various functionalities like handling polls, voting, and winner declarations.
 
 
-## Features
-- Create Polls: The contract owner can create new polls with a list of candidates.
-- Vote: Users can vote for their preferred candidate in a poll.
-- Declare Winners: Once a poll is closed, the contract owner can declare the winner(s).
-- Security Features: Each voter can vote only once per poll, and only the owner can create polls or declare winners.
-- Track Poll Results: View the status, total votes, candidates, and results for each poll.
