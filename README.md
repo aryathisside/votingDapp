@@ -11,7 +11,7 @@ This is a decentralized voting application (DApp) built on the Ethereum blockcha
 - [Usage](#usage)
 - [Smart Contract Overview](#smart-contract-overview)
 - [Features](#features)
-- [License](#license)
+
 
 ## Introduction
 
