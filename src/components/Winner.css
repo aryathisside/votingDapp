@@ -1,0 +1,26 @@
+/* Winner.css */
+.Winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh; /* Full viewport height */
+    background-color: var(--clr-zinc-800); /* Dark background color */
+  }
+  
+  .Winner h1 {
+    font-family: 'Poiret One', cursive;
+    color: var(--clr-white);
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .Winner h1 {
+      font-size: 2.5rem;
+    }
+  }
+  
